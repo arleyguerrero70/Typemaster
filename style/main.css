@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    min-width: 600px;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 20px 20px 0 20px;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.icon {
+    border-radius: 5px;
+    background-color: #31c2eb;
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    background-color: #31c2eb;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    padding: 5px;
+    font-family: 'Anton', sans-serif;
+    font-size: 12px;
+}
+
+.header-boton {
+    background-color: #E7EFF2;
+    color: #000;
+}
+
+.boton {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    width: 130px;
+    height: 20px;
+    padding: 12px 5px 5px 5px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.titulo {
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #162542;
+}
+
+.parrafo {
+    font-family: 'Barlow', sans-serif;
+    color: #373737;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 15px;
+    margin-top: 30px;
+}
+
+.main-hero-texto {
+    grid-area: 1 / 1 / 3 / 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.main-hero-imagen {
+    grid-area: 1 / 3 / 3 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-hero-cta {
+    display: flex;
+    align-items: center;
+}
+
+.main-hero-boton {
+    background-color: #31c2eb;
+    color: #fff;
+    margin-right: 20px;
+}
+
+.main-hero-release {
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.main-detalles-primeraImagen {
+    grid-area: 3 / 1 / 5 / 2;
+}
+
+.main-detalles-segundaImagen {
+    grid-area: 3 / 2 / 5 / 4;
+}
+
+.main-detalles-info {
+    grid-area: 3 / 4 / 5 / 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.main-detalles-titulo {
+    font-size: 30px;
+}
+
+.main-caracteristicas-titulo {
+    font-size: 20px;
+}
+
+.main-caracteristicasUno {
+    grid-area: 5 / 1 / 8 / 2;
+}
+
+.main-caracteristicasUno img {
+    width: 25px;
+}
+
+.main-caracteristicasDos {
+    grid-area: 5 / 2 / 8 / 3;
+}
+
+.main-caracteristicasDos img {
+    width: 25px;
+}
+
+.main-caracteristicasTres {
+    grid-area: 5 / 3 / 8 / 4;
+}
+
+.main-caracteristicasTres img {
+    width: 25px;
+}
+
+.main-caracteristicasCuatro {
+    grid-area: 5 / 4 / 8 / 5;
+}
+
+.main-caracteristicasCuatro img {
+    width: 25px;
+}
+
+footer {
+    grid-area: 7 / 1 / 7 / 7;
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #162542;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
